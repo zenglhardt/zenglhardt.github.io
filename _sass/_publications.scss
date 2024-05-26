@@ -1,0 +1,161 @@
+.citation {
+  padding: 10px;
+  h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  display: block;
+  small {
+    p {
+    line-height: 1.2;
+    }
+  }
+}
+
+code {
+  font-size: 12px;
+  color: $darkGray;
+  background-color: white;
+}
+
+.publication-badge {
+  margin-bottom: 5px;
+  .glyphicon-file {
+    color: #980000;
+  }
+
+  font-size: 15px;
+  .publication-pic {
+    max-width: 300px;
+    a {
+      display: block;
+      position: relative;
+      padding-bottom: 56.25%;
+      //border-radius: 10px;
+      overflow: hidden;
+      @media (min-width: 768px){
+      }
+      img {
+
+        width: 100%;
+        vertical-align: middle;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        @media (min-width: 768px){
+          //max-width: 150px;
+        }
+      }
+    }
+  }
+  .authors a {
+    color: $darkGray;
+    text-decoration: underline;
+  }
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-family: $avenirHeavy;
+  }
+
+  .btn {
+    //width: 70px;
+    //margin-top: 5px;
+    //text-align:left;
+  }
+
+  .award {
+    color: #c70000;
+    font-family: $avenirHeavy;
+  }
+  .to-appear {
+    color: rgb(13, 95, 180);
+  }
+
+}
+
+.publication {
+
+  .glyphicon-file {
+    color: #980000;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+  }
+
+  .materials {
+    margin-bottom: 10px;
+  }
+  .author_list {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .image-holder {
+    max-height: 300px;
+    img {
+      max-height: inherit;
+    }
+  }
+  .video-holder {
+  }
+}
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0; padding-top: 0;
+}
+
+code {
+  white-space: pre-wrap;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.flyer-thumbs {
+  img {
+    max-height: 200px;
+  }
+}
+
+.scrolling-wrapper {
+  display: flex;       /* Aligns children in a row */
+  flex-wrap: nowrap;   /* Prevents wrapping into multiple lines */
+  overflow-x: auto;    /* Allows horizontal scrolling */
+  overflow-y: hidden;  /* Prevents vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* Improves scrolling on touch devices */
+}
+
+.thumbnail {
+  flex: 0 0 auto;        /* Does not grow or shrink but is automatically sized */
+  width: 300px;          /* Fixed width for each thumbnail */
+  margin-right: 10px;    /* Adjust spacing between items */
+  background: $tan; /* Using a variable for background */
+  padding: 10px;
+  box-shadow: 0 2px 5px $tan; /* Using a variable for shadow */
+  border-radius: 5px;
+  display: flex;         /* Ensures the layout is flex */
+  flex-direction: column; /* Stacks children vertically */
+  overflow: hidden;      /* Hides anything spilling out of the box */
+  align-items: center;   /* Centers children horizontally */
+}
+
+.thumbnail img {
+  width: 100%;           /* Ensures the image takes full width of the container */
+  height: 60px;          /* Fixed height for images */
+  object-fit: cover;     /* Covers the area, maintaining aspect ratio, cropping excess */
+  border-radius: 3px;    /* Rounded corners for the image */
+}
+
+.thumbnail-caption {
+  text-align: center;
+  font-size: 14px;       /* Adjust font size as needed */
+  color: #333;           /* Font color */
+  padding: 5px 10px;     /* Padding around the text */
+  margin: 0;             /* Remove any default margins */
+}
