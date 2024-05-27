@@ -9,7 +9,7 @@ pdf: /pdfs/Zhihan_DeltaLCA_IMWUT2024.pdf
 video: 
 video_embed:
 image: /images/pubs/Zhihan_DeltaLCA_IMWUT2024_thumbnail.png
-thumbnail: /images/pubs/Zhihan_DeltaLCA_IMWUT2024_thumbnail.png
+thumbnail: /images/pubs/deltalca-thumb.png
 citation: |
     Zhihan Zhang, Felix Hähnlein, Yuxuan Mei, Zachary Englhardt, Shwetak Patel, Adriana Schulz, and Vikram Iyer. 2024. DeltaLCA: Comparative Life-Cycle Assessment for Electronics Design. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 8, 1: 1–29. https://doi.org/10.1145/3643561
 bibtex: |

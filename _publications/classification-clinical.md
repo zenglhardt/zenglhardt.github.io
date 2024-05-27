@@ -9,6 +9,7 @@ award:
 pdf: /pdfs/classification_to_clinical.pdf
 image: /images/pubs/classification_to_clinical.png
 thumbnail: /images/pubs/classification_to_clinical_thumb.png
+code_url: https://github.com/ubicomplab/classification-to-clinical
 video: 
 abstract: |
     Passively collected behavioral health data from ubiquitous sensors could provide mental health professionals valuable insights into patient's daily lives, but such efforts are impeded by disparate metrics, lack of interoperability, and unclear correlations between the measured signals and an individual's mental health. To address these challenges, we pioneer the exploration of large language models (LLMs) to synthesize clinically relevant insights from multi-sensor data. We develop chain-of-thought prompting methods to generate LLM reasoning on how data pertaining to activity, sleep and social interaction relate to conditions such as depression and anxiety. We then prompt the LLM to perform binary classification, achieving accuracies of 61.1%, exceeding the state of the art. We find models like GPT-4 correctly reference numerical data 75% of the time.<br />

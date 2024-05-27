@@ -44,10 +44,6 @@ redirect_from:
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-<h1>Recent Projects</h1>
-
-
 <!-- Some code for a scrolling projects section to showcase recent unpulished projects in place of the flyer download. 
   All the infrastructure to use this is now set up via the _projects directory similar to how the publications list works.
   
@@ -65,7 +61,7 @@ redirect_from:
 -->
 
 <!-- <div class="row flyer-thumbs">
-  <div class="col-md-2 col-sm-3 col-xs-4">
+  <div class="col-md-2 col-sm-3 col-sm-4">
     <a href="{{site.base_url}}/pdfs/lab/ubicomplab-flyer.pdf">
       <img src="{{site.base_url}}/images/poster-7-flyer_thumb.png"/><br/>
       Overview of recent projects
@@ -73,15 +69,14 @@ redirect_from:
   </div>
 </div> -->
 
-
-<h1>Full Publication List</h1>
-
+<!-- <h2 style="margin-top: 0px; margin-bottom: 0px;">Publication List</h2> -->
+<!-- <div class="container"> -->
 <div class="btn-group btn-group-toggle" data-toggle="buttons">
   <label class="btn btn-primary active" onclick="filterByTag('')">
     <input type="radio" name="options" id="option1" autocomplete="off" checked> All
   </label>
   <label class="btn btn-primary" onclick="filterByTag('reviewedTag')">
-    <input type="radio" name="options" id="option1" autocomplete="off" checked> Full Papers
+    <input type="radio" name="options" id="option2" autocomplete="off" checked> Full Papers
   </label>
   <label class="btn btn-primary" onclick="filterByTag('nonReviewedTag')">
     <input type="radio" name="options" id="option4" autocomplete="off"> Abstracts and Preprints
@@ -95,18 +90,18 @@ redirect_from:
   {% if this_year != nil and this_year != last_year %}
     {% if last_year != '0' %}</div>{% endif %} <!-- Closes previous year's div if there was one -->
     <div class="year-group" id="{{ this_year }}-ref"> <!-- Starts new year div -->
-      <h2>{{ this_year }}</h2>
-      <hr/>
+      <h3>{{ this_year }}</h3>
+      <hr class="year-group-line">
   {% endif %}
   {% capture last_year %}{{ this_year }}{% endcapture %}
 
 
 <div class="pub {{ pub.tag }}">
   <div class="row publication-badge">
-    <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
-      {% if pub.thumbnail.size > 0 %}<a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
+    <div class="publication-pic col-md-2 col-sm-3 col-sm-12 text-left">
+      {% if pub.thumbnail.size > 0 %}<img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
     </div>
-    <div class="publication-info col-md-10 col-sm-9 col-xs-12">
+    <div class="publication-info col-md-10 col-sm-9 col-sm-12">
       <h2>{{ pub.title }}</h2>
 
       <p><span class="authors">{% include author_list.html authors=pub.authors coauthors=pub.coauthors%}</span><br />
@@ -174,3 +169,4 @@ redirect_from:
 
 {% endfor %}
 {% if last_year != '0' %}</div>{% endif %} <!-- Closes final year's div if there was one -->
+<!-- </div> -->

@@ -1,122 +1,15 @@
-- date: 2023-11-01
-  blurb: "\"Demo of Z-Ring: Context-Aware Subtle Input Using Single-Point Bio-Impedance Sensing\" wins the \"Jury Best Demo Award\" at UIST 2023"
-  url: https://dl.acm.org/doi/10.1145/3586182.3615809
+- date: 2024-4-4
+  blurb: "From Classification to Clinical Insights has been accepted to IMWUT 2024. See you all down under! 🦘🐨"
+  url: 
 
-- date: 2022-12-02
-  blurb: "\"The Sound of Touch\" won the 10-Year Impact Award from the ACM Interactive Surfaces and Spaces Conference (ISS 2022)"
-  url: https://news.cs.washington.edu/2022/12/02/the-sound-of-touch-uw-and-microsoft-researchers-earn-iss-10-year-impact-award-for-advancing-innovative-interaction-technique-via-on-body-sensing/?utm_source=rss&utm_medium=rss&utm_campaign=the-sound-of-touch-uw-and-microsoft-researchers-earn-iss-10-year-impact-award-for-advancing-innovative-interaction-technique-via-on-body-sensing
+- date: 2024-5-4
+  blurb: "Heading to CHI! So excited to share our work on using LLMs to aid in building and debugging physical computing systems. "
+  url: 
 
-- date: 2022-10-01
-  blurb: Ishan Chatterjee is named 2022 National Defense in Science and Engineering Fellow
+- date: 2024-3-4
+  blurb: "Gave a talk on MilliMobile at Northwestern University, thanks to Prof. Nivedita Arora for the invitation and go cats! 🐱"
+  url: 
 
-- date: 2022-09-01
-  blurb: Xin Liu is named 2022 Google PhD Fellow
-  url: https://news.cs.washington.edu/2022/10/24/a-picture-of-health-google-fellowship-recipient-xin-liu-combines-machine-learning-and-mobile-sensing-through-an-equity-lens-to-support-remote-health-assessment/
-
-- date: 2022-08-01
-  blurb: "\"O-pH\" has been selected as a Featured Article in IEEE TBME"
-  url: https://www.embs.org/tbme/articles/o-ph-optical-ph-monitor-to-measure-dental-biofilm-acidity-and-assist-in-enamel-health-monitoring/
-
-- date: 2021-08-16
-  blurb: Shwetak Patel is featured in Business Insiders 30 young leaders under 40 in healthcare industry
-  url: https://www.businessinsider.com/30-leaders-under-40-changing-healthcare-in-2021
-
-- date: 2021-01-01
-  blurb: Parker Ruth is named CRA Outstanding Undergraduate Research Award Finalist
-  url: https://news.cs.washington.edu/2021/01/15/computing-research-association-recognizes-undergraduates-advancing-data-science-for-mental-health-commonsense-reasoning-mobile-health-sensing-and-more/
-
-- date: 2020-12-06
-  blurb: "\"Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement\" was orally presented at NeurIPS 2020"
-  url: https://nips.cc/virtual/2020/public/poster_e1228be46de6a0234ac22ded31417bc7.html
-
-- date: 2020-09-23
-  blurb: "Article on \"Challenges in Health Sensing\" Earns Best Paper Runner-Up"
-  url: /publications/mhealth_challenges/
-
-- date: 2020-08-01
-  blurb: Alex Mariakakis starts his assistant professorship at the University of Toronto
-  url: https://web.cs.toronto.edu/news-events/news/u-of-ts-department-of-computer-science-welcomes-its-newest-faculty-members
-
-- date: 2020-04-01
-  blurb: Parker Ruth is named a 2020 Goldwater Scholar
-  url: https://news.cs.washington.edu/2020/04/02/allen-schools-parker-ruth-named-a-2020-goldwater-scholar/
-
-- date: 2019-04-03
-  blurb: Shwetak Patel receives ACM Prize in Computing for groundbreaking contributions in low-power sensing and mobile health
-  url: https://news.cs.washington.edu/2019/04/03/shwetak-patel-receives-prestigious-acm-prize-in-computing-for-groundbreaking-contributions-in-low-power-sensing-and-mobile-health/
-
-- date: 2018-10-10
-  blurb: Shwetak Patel wins 10-year impact award at Ubicomp 2018
-  url: /publications/detecting-human/
-
-- date: 2018-10-10
-  blurb: Glabella wins IMWUT 2017 Distinguished Paper Award.
-  url: /publications/glabella/
-
-- date: 2018-10-10
-  blurb: Alex Mariakakis receives the Gaetano Borriello Outstanding Student Award at UbiComp 2018
-  url: http://ubicomp.org/sc/awards.html
-
-- date: 2018-10-10
-  blurb: Edward Wang receives Honorable Mention for the Gaetano Borriello Outstanding Student Award at UbiComp 2018
-  url: http://ubicomp.org/sc/awards.html
-
-- date: 2018-07-20
-  blurb: Elliot Saba defends his thesis and has accepted a position at Julia Computing
-  url: https://staticfloat.github.io/
-
-- date: 2018-01-25
-  blurb: Eric Whitmire is awarded a 2018 Adobe Research Fellowship
-  url: https://research.adobe.com/fellowship/previous-fellowship-award-winners/
-
-- date: 2018-01-12
-  blurb: Summer high school application now available!
-  url: https://ubicomplab.cs.washington.edu/get_involved/
-
-- date: 2017-09-22
-  blurb: Alex Mariakakis is named GeekWire's "Geek of the Week"
-  url: https://www.geekwire.com/2017/alex-mariakakis/
-
-- date: 2017-09-13
-  blurb: Shwetak Patel wins 10-year impact award at Ubicomp 2017
-  url: /publications/at-the-flick-of-a-switch/
-
-- date: 2016-09-16
-  blurb: EyeContact wins ISWC 2016 Best Paper Award
-  url: /publications/eyecontact
-
-- date: 2016-09-14
-  blurb: HemaApp wins UbiComp 2016 Best Paper Award
-  url: /publications/hemaapp
-
-- date: 2016-09-07
-  blurb: HemaApp featured in the news — MIT Technology Review, Engadget, New Atlas, Digital Trends, and more.
-  url: https://news.cs.washington.edu/2016/09/07/uws-hemaapp-takes-the-sting-out-of-blood-screening/
-
-- date: 2016-08-21
-  blurb: Mayank Goel defended his thesis and has accepted a faculty position at Carnegie Mellon University.
-  url: http://mayankgoel.com
-
-- date: 2016-07-13
-  blurb: Microsoft Research recognizes Shwetak Patel with an Outstanding Collaborator Award
-  url: https://www.microsoft.com/en-us/research/academic-program/outstanding-collaborator-award/
-
-- date: 2016-06-02
-  blurb: New "intelligent water" venture launches with technology from the Ubicomp lab
-  url: https://news.cs.washington.edu/2016/06/02/new-intelligent-water-venture-launches-with-technology-from-uws-ubicomp-lab/
-
-- date: 2016-05-11
-  blurb: PaperID featured in a UW News release
-  url: http://www.washington.edu/news/2016/05/11/paper-gets-smart-with-drawn-on-stenciled-sensor-tags/
-
-- date: 2016-05-05
-  blurb: Shwetak Patel shakes hands with President Barack Obama and collects his PECASE award from the White House
-  url: https://news.cs.washington.edu/2016/05/05/pecase-ceremony-shwetak-patel-and-luke-zettlemoyer-go-to-the-other-washington/
-
-- date: 2016-02-18
-  blurb: Shwetak Patel awarded a Presidential Early Career Award for Scientists and Engineers (PECASE)
-  url: https://news.cs.washington.edu/2016/02/18/uw-cse-shwetak-patel-luke-zettlemoyer-pecase-awards/
-
-- date: 2015-11-30
-  blurb: Keyu Chen defended his thesis and has accepted a researcher position at Intel Labs.
-  url: http://keyuc.com
+- date: 2023-6-14
+  blurb: "MilliMobile: An Autonomous Battery-free Wireless Microrobot was accepted to MobiCom 2023."
+  url: 
