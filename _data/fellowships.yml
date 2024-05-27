@@ -1,0 +1,30 @@
+- name: National Science Foundation Graduate Research Fellows and Honorable Mentions
+  people: [mariakakis, wang, degreef, cohn, whitehill, peplinski, ruth_parker, millicent_li, chatterjee, jerry_cao, zacharye, toma_itagaki]
+
+- name: Goldwater Scholarship, Mary Gates Research Scholarship, Levinson Emerging Scholar, Washington Research Foundation Fellowship
+  url: https://news.cs.washington.edu/2020/04/02/allen-schools-parker-ruth-named-a-2020-goldwater-scholar/
+  people: [ruth_parker]
+
+- name: National Defense in Science and Engineering Fellows
+  people: [whitmire, chatterjee]
+
+- name: Google PhD Fellowship
+  people: [liu_xin]
+
+- name: Microsoft Research Fellowship
+  people: [goel, degreef, cohn]
+
+- name: Adobe Research Fellowship
+  people: [whitmire]
+
+- name: Microsoft Women's Graduate Research Fellowship
+  people: [degreef]
+
+- name: Qualcomm Innovation Fellowship
+  people: [li, mariakakis]
+
+- name: UW College of Engineering’s Kumar and Robert A. Bhasin Endowed Fellowship
+  people: [gupta]
+
+- name: UW CEI Graduate Fellowship
+  people: [zzhihan]

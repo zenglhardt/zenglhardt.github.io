@@ -1,0 +1,698 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+
+// Syntax highlighting @import is at the bottom of this file
+
+//fonts
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-L.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-R.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-M.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-B.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-LI.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-RI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-MI.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-BI.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/**************/
+/* BASE RULES */
+/**************/
+
+body{
+  font-family: "Ubuntu";//$helvetica;
+}
+.btn-primary {
+  background-color: $darkPurple; /* Ensure this variable is defined or replace with a hex code */
+  color: white; /* Ensures text is readable against the dark background */
+  border-color: $darkPurple; /* Sets the border color to match the background or make it transparent */
+
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  outline: none; /* Removes the outline */
+  box-shadow: none; /* Removes the box shadow */
+}
+
+.btn-primary.active, .btn-primary:active {
+  background-color: rgb(164, 149, 195); /* Specific purple used for active state */
+  color: white;
+  border-color: rgb(164, 149, 195); /* Match the border color with the active background */
+
+}
+
+.btn-primary.active.focus, .btn-primary:active.focus {
+  background-color: rgb(164, 149, 195); /* Ensures active focus state retains the intended color */
+  outline: none; /* Removes the outline */
+  box-shadow: none; /* Removes the box shadow */
+  border-color: rgb(164, 149, 195); /* Match the border color with the active background */
+
+}
+
+.btn-group{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.year-group-line{
+  border: 0;
+  height: 1px;
+  background: lightgrey;
+  margin-top: 5px;
+}
+
+.year-group {
+  margin-top: 0px; /* Adjust as needed */
+  margin-bottom: 0px; /* Adjust as needed */
+  padding-bottom: 0px;
+}
+
+.year-group h3 {
+  margin-top: 0px; /* Adjust as needed */
+  margin-bottom: 0px; /* Adjust as needed */
+}
+
+
+html {
+  font-size: 100%;
+}
+// change background color here
+body {
+  background: white;//$ultraLightPurple;// rgb(255, 247, 247);
+  //background: white;
+  font-size: 16px/1.2;
+  color: black;//$darkGray;
+}
+
+.fix-nav {
+  padding-top: 150px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:  $darkPurple;
+  font-weight: regular;
+
+  line-height: 1.7;
+  margin: 0px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: black;
+}
+
+p {
+  margin: 15px 3px;
+}
+
+p.tight{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+	cursor: pointer;
+  &:hover, &:active {
+    color: rgb(078, 042, 132);
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 900px; // Adjust this value to set the desired width
+  margin: 10px auto;
+  padding: 0;
+
+  // padding: 20px; // Optional: Adjust the padding as needed
+}
+
+.container.inside{
+  margin: 0px;
+  padding: 0px;
+  overflow-wrap: break-word;
+}
+
+.container.outside{
+  padding: 3%;
+  display:grid;
+}
+
+.profile-pic{
+  //max-height: 250px;
+  flex: 0 0 auto;
+  margin-top: 0;//10px;
+  border-radius: 5%
+}
+
+.pronoun-container {
+  margin-bottom: 10px; // Adjust as necessary for the desired space
+}
+
+.info-container {
+  margin-top: 20px; // Adjust as necessary for the desired space
+}
+
+.profile-container {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: bold;
+  color: black;
+}
+
+.news-item {
+  display: flex;
+  
+}
+
+.section {
+  padding: 0px;
+  margin: 0px;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $blue;
+}
+::selection {
+  color: $black;
+  background: $blue;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.masthead {
+  background-color: $darkPurple;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.navbar-fixed-top {
+  visibility: visible;
+  //padding: 0px; // NOTE this centers navbar
+  .fix-nav & {
+    visibility: visible;
+  }
+  
+  @media (max-width: 991px){
+    .navbar-brand {
+      .fix-nav & {
+        display: none;
+      }
+    }
+  }
+}
+
+.navbar-static-top {
+  visibility: visible;
+  .fix-nav & {
+    visibility: visible;
+  }
+
+}
+
+@media only screen and (max-width: 1190px) {
+  .navbar {
+    height: 140px;
+  }
+  // Not sure why this was there but it makes 'get involved' inaccessible.
+  /*
+  .navbar-collapse {
+    height: 128px!important;
+  }
+  */
+}
+
+
+/* On Mobile */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .navbar .navbar-brand img {
+      height: 80px;
+      margin: 0px!important;
+      padding: 10px;
+  }
+  .navbar a {
+    margin-left: 0px!important;;
+  }
+  .navbar-collapse {
+    height: 260px;
+  }
+}
+
+.navbar {
+  font-size: 18px;
+  line-height: 32px;
+  background-color: $darkPurple;//rgb(239, 233, 244);
+  border-bottom: 0px solid $darkGray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  min-height: auto;
+  @media (min-width: 768px){
+    height: 140px; // NOTE This was made to be auto to avoid logo colliding with nav (auto?)
+  }
+  
+  .navbar-header {
+    min-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    .fix-nav & {
+      margin-top: 0px!important;
+    }
+    position: relative;
+    z-index: 2;
+  }
+  
+  .fix-nav & {
+    margin-top: 0px;
+    height: 52px; 
+  }
+  
+  .navbar-collapse {
+    z-index: 1;
+    @media (min-width: 768px){
+      
+      height: 135px!important; // NOTE used to avoid collision with ubicomp logo (80?)
+      position: relative;
+      
+      .fix-nav & {
+          height: 40px!important;
+      }
+      ul {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        margin: 10px;
+        li {
+          a {
+            padding: 5px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .navbar-nav {
+    margin: 7.5px -15px;
+    background-color: $darkPurple;
+  }
+  
+  @include mobile {
+    float: none;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $black;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+    &:hover, &:active {
+      color: rgb(078, 042, 132);
+    }
+  }
+  
+  .navbar-brand {
+    height: auto;
+    padding: 0px; // NOTE this centers navbar cant get this to work in fixed. (remove)
+    img {
+      height: 80px;
+      margin: 20px;
+      .fix-nav & {
+        @media (min-width: 992px){
+          height: 40px;
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+.bx-clone{
+   display: none !important;
+}
+
+.news {
+  h2 {
+    margin-top: 0px;
+    color: inherit;
+  }
+  ul {
+    padding-left: 0px;
+    
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      
+      .date {
+        display: inline;
+      }
+      .blurb {
+        display: inline
+      }
+    }
+  }
+}
+
+//
+// .main
+//
+#news-content {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  word-wrap: break-word; /* Allows long words to be broken and wrapped */
+  overflow-wrap: break-word; /* Ensures that the text will wrap */
+}
+
+#main {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  // border-top: 1px solid #ddd;
+  // border-bottom: 1px solid #ddd;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  img {
+    max-height: 35px;
+  }
+}
+
+.footer-text{
+  font-size: 12px;
+  color: gray;
+}
+
+/* Resetting some default styles */
+.ant-menu {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 0;
+  display: flex; /* Aligns items in a row */
+  list-style-type: none; /* Removes bullet points */
+  background: none; /* Background color */
+  justify-content: center; /* Center items horizontally */
+  border-bottom: 2px solid #ddd;;
+}
+
+.ant-menu-item {
+  margin: 0 15px; /* Spacing between items */
+  // padding: 10px 20px; /* Provides padding around the text for better clickability */
+  position: relative;
+  color: black;//#333; /* Text color */
+  cursor: pointer; /* Cursor appears clickable */
+  // text-transform: uppercase; /* Uppercase text */
+  // font-weight: bold; /* Bold font */
+}
+
+.ant-menu-item:hover {
+  color: rgb(078, 042, 132); /* Change color on hover */
+}
+
+.ant-menu-item.active {
+  color: rgb(078, 042, 132); /* Active item color */
+}
+.ant-menu-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Aligns right with the menu's bottom border */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Height of the underline */
+  background-color: rgb(078, 042, 132); /* or any color you prefer */
+}
+
+.row{
+  margin-top: 1px;
+}
+
+.publication-badge{
+  margin-bottom: 1px;
+}
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
+@import "publications";
+@import "members";
+@import "home";

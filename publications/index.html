@@ -1,0 +1,172 @@
+---
+layout: page
+title:
+redirect_from:
+- /projects/
+- /wiki/Projects/
+---
+
+<script>
+  function filterByTag(selectedTag) {
+      var yearGroups = document.getElementsByClassName('year-group');
+  
+      for (var i = 0; i < yearGroups.length; i++) {
+          var yearGroup = yearGroups[i];
+          var publications = yearGroup.getElementsByClassName('pub');
+          var isAnyPubVisible = false;
+          for (var j = 0; j < publications.length; j++) {
+              var pub = publications[j];
+              if (selectedTag === "" || pub.classList.contains(selectedTag)) {
+                  pub.style.display = 'block';  // show publication
+                  isAnyPubVisible = true;
+              } else {
+                  pub.style.display = 'none';  // hide publication
+              }
+          }
+          
+          // If no publications are visible, hide the year-group
+          if (!isAnyPubVisible) {
+              yearGroup.style.display = 'none';
+          } else {
+              yearGroup.style.display = 'block';
+          }
+      }
+  }
+  
+  // Run filter function on page load with no tag selected
+  document.addEventListener('DOMContentLoaded', function() { filterByTag(''); });
+
+  document.querySelector('.scrolling-wrapper').addEventListener('wheel', function(e) {
+    this.scrollLeft += e.deltaY + e.deltaX; // Adjust scrolling speed if necessary
+  });
+
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!-- Some code for a scrolling projects section to showcase recent unpulished projects in place of the flyer download. 
+  All the infrastructure to use this is now set up via the _projects directory similar to how the publications list works.
+  
+  <div class="scrolling-wrapper">
+  {% for project in site.projects %}
+  <div class="thumbnail">
+    <img src="{{ project.image | prepend: site.base_url }}" alt="{{ project.title }}">
+    <p class="thumbnail-caption">{{ project.summary }}</p>
+  </div>
+  {% endfor %}
+</div>
+<a href="{{site.base_url}}/pdfs/lab/ubicomplab-flyer.pdf" download>
+  <i class="fa fa-download"></i> Download as PDF
+</a>
+-->
+
+<!-- <div class="row flyer-thumbs">
+  <div class="col-md-2 col-sm-3 col-sm-4">
+    <a href="{{site.base_url}}/pdfs/lab/ubicomplab-flyer.pdf">
+      <img src="{{site.base_url}}/images/poster-7-flyer_thumb.png"/><br/>
+      Overview of recent projects
+    </a>
+  </div>
+</div> -->
+
+<!-- <h2 style="margin-top: 0px; margin-bottom: 0px;">Publication List</h2> -->
+<!-- <div class="container"> -->
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-primary active" onclick="filterByTag('')">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> All
+  </label>
+  <label class="btn btn-primary" onclick="filterByTag('reviewedTag')">
+    <input type="radio" name="options" id="option2" autocomplete="off" checked> Full Papers
+  </label>
+  <label class="btn btn-primary" onclick="filterByTag('nonReviewedTag')">
+    <input type="radio" name="options" id="option4" autocomplete="off"> Abstracts and Preprints
+  </label>
+</div>
+
+{% capture last_year %}0{% endcapture %}
+{% assign sorted_pubs = site.publications | sort: 'date' %}
+{% for pub in sorted_pubs reversed %}
+  {% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
+  {% if this_year != nil and this_year != last_year %}
+    {% if last_year != '0' %}</div>{% endif %} <!-- Closes previous year's div if there was one -->
+    <div class="year-group" id="{{ this_year }}-ref"> <!-- Starts new year div -->
+      <h3>{{ this_year }}</h3>
+      <hr class="year-group-line">
+  {% endif %}
+  {% capture last_year %}{{ this_year }}{% endcapture %}
+
+
+<div class="pub {{ pub.tag }}">
+  <div class="row publication-badge">
+    <div class="publication-pic col-md-2 col-sm-3 col-sm-12 text-left">
+      {% if pub.thumbnail.size > 0 %}<img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
+    </div>
+    <div class="publication-info col-md-10 col-sm-9 col-sm-12">
+      <h2>{{ pub.title }}</h2>
+
+      <p><span class="authors">{% include author_list.html authors=pub.authors coauthors=pub.coauthors%}</span><br />
+        <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
+        {% if pub.date <= site.time %}
+          {% if pub.pdf %}<a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+            <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF
+          </a>{% endif %}
+          {% if pub.video.size > 0 %}<a href="{{ pub.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
+            <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
+          </a> {% endif %}
+          {% if pub.citation %}<button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{pub.title | slugify}}_citation">
+            <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citation
+          </button>{% endif %}
+          {% if pub.bibtex %}<button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{pub.title | slugify}}_bibtex">
+            <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
+          </button>{% endif %}
+          {% if pub.project_url %}<a href="{{ pub.project_url }}" class="btn btn-default btn-xs" aria-label="Project Page">
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Page
+          </a>{% endif %}
+          {% if pub.code_url %}<a href="{{ pub.code_url }}" class="btn btn-default btn-xs" aria-label="Code">
+            <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Code
+          </a>{% endif %}
+        {% endif %}
+      </p>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_bibtex">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{ pub.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <code>{{ pub.bibtex }}</code>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_citation">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{ pub.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <code>{{ pub.citation }}</code>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+{% endfor %}
+{% if last_year != '0' %}</div>{% endif %} <!-- Closes final year's div if there was one -->
+<!-- </div> -->

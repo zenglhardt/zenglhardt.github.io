@@ -1,0 +1,80 @@
+<!-- {% capture author_list %}
+{% for author_id in include.authors %}
+{% assign author_match = site.data.members | where: "id",author_id %}
+{% if author_match.size >= 1 %}
+{% assign author = author_match | first %}
+{% if author.website == nil %}
+{{ author.name }}
+{% else %}
+<a href="{{author.website}}">{{ author.name }}</a>
+{% endif %}
+{% else %}
+{{ author_id }}
+{% endif %}
+{% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+{% endcapture %}
+  
+{{ author_list | strip_newlines }} -->
+<!-- {% capture author_list %}
+{% for author_id in include.authors %}
+{% assign author_match = site.data.members | where: "id",author_id %}
+{% if author_match.size >= 1 %}
+{% assign author = author_match | first %}
+{% if author_id == "zacharye" %}
+<strong>{{ author.name }}</strong>
+{% elsif author.website == nil %}
+{{ author.name }}
+{% else %}
+<a href="{{author.website}}">{{ author.name }}</a>
+{% endif %}
+{% else %}
+{% if author_id == "zacharye" %}
+**{{ author_id }}**
+{% else %}
+{{ author_id }}
+{% endif %}
+{% endif %}
+{% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+{% endcapture %}
+  
+{{ author_list | strip_newlines }} -->
+
+{% capture author_list %}
+{% for author_id in include.authors %}
+  {% assign author_match = site.data.members | where: "id", author_id %}
+  {% assign is_coauthor = false %}
+  {% for coauthor_id in include.coauthors %}
+    {% if author_id == coauthor_id %}
+      {% assign is_coauthor = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% if author_match.size >= 1 %}
+    {% assign author = author_match | first %}
+    
+    {% if author_id == "zacharye" %}
+      <strong>{{ author.name }}{% if is_coauthor %}*{% endif %}</strong>
+    {% elsif author.website == nil %}
+      {{ author.name }}{% if is_coauthor %}*{% endif %}
+    {% else %}
+      <a href="{{ author.website }}">{{ author.name }}</a>{% if is_coauthor %}*{% endif %}
+    {% endif %}
+    
+  {% else %}
+    {% if author_id == "zacharye" %}
+      <strong>{{ author_id }}{% if is_coauthor %}*{% endif %}</strong>
+    {% else %}
+      {{ author_id }}{% if is_coauthor %}*{% endif %}
+    {% endif %}
+  {% endif %}
+  
+  <!-- Debug output -->
+  <!-- ({{ author_id }}: {{ is_coauthor }}) -->
+
+  {% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+{% endcapture %}
+  
+{{ author_list | strip_newlines }}

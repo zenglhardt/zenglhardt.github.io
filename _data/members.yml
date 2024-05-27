@@ -1,0 +1,907 @@
+# Shwetak
+
+  - id: patel
+    name: Shwetak Patel
+    last_name: Patel
+    image: /images/members/shwetak.jpg
+    website: https://homes.cs.washington.edu/~shwetak/
+    status: shifu
+    affiliation: Washington Research Foundation Entrepreneurship Endowed Professor
+      in Computer Science & Engineering and Electrical Engineering at the University
+      of Washington
+
+  - id: vikram
+    name: Vikram Iyer
+    last_name: Iyer
+    website: https://homes.cs.washington.edu/~vsiyer/
+    status: coadvisor
+
+# Grad Students
+  - id: arian
+    name: Morelle Arian
+    last_name: Arian
+    image: /images/members/morelle_square.jpg
+    affiliation: Data Scientist at Yotpo
+    email: morellea@uw.edu
+    website: http://homes.cs.washington.edu/~morellea/
+    status: master_alumni
+
+  - id: ching
+    name: Alex Ching
+    last_name: Ching
+    image: /images/members/ching_alex.jpg
+    affiliation: CSE
+    website: https://www.onacamelsback.com
+    email: atching@cs.washington.edu
+    status: current
+
+  - id: cao
+    name: Alvin Cao
+    last_name: Cao
+    image: /images/members/alvin.jpg
+    affiliation: ECE
+    email: asc228@uw.edu
+    website: https://www.linkedin.com/in/alvincao/
+    status: current
+
+  - id: hoffman
+    name: Jason Hoffman
+    last_name: Hoffman
+    image: /images/members/jason.jpg
+    affiliation: CSE
+    website: https://jasonhof.github.io/
+    email: jasonhof@cs.washington.edu
+    status: current
+
+  - id: breda
+    name: Joseph Breda
+    last_name: Breda
+    image: /images/members/breda_joe.jpg
+    affiliation: CSE
+    website: https://joebreda.github.io
+    email: joebreda@cs.washington.edu
+    status: current
+
+  - id: chatterjee
+    name: Ishan Chatterjee
+    last_name: Chatterjee
+    image: /images/members/chatterjee.jpg
+    affiliation: CSE
+    website: https://ishanchatterjee.weebly.com
+    email: ichat@cs.washington.edu
+    status: current
+
+  - id: xue
+    name: Qiuyue (Shirley) Xue
+    last_name: Xue
+    image: /images/members/shirley.jpg
+    affiliation: CSE
+    email: qxue2@cs.washington.edu
+    website: https://www.xueqiuyue.com
+    status: current
+
+  - id: lichard
+    name: Richard Li
+    last_name: Li
+    image: /images/members/richard_li.jpeg
+    affiliation: CSE
+    email: lichard@cs.washington.ede
+    website: https://lichard49.github.io
+    status: current
+
+  - id: waghmare
+    name: Anandghan Waghmare
+    last_name: Waghmare
+    image: /images/members/anandghan.jpeg
+    affiliation: CSE
+    email: anandw@cs.washington.edu
+    website: https://www.anandghan.in
+    status: current
+
+  - id: narayanswamy
+    name: Girish Narayanswamy
+    last_name: Narayanswamy
+    image: /images/members/narayanswamy_girish.jpg
+    affiliation: ECE
+    website: https://girishvn.github.io
+    email: girishvn@uw.edu
+    status: current
+
+  - id: lelkin
+    name: Lisa Elkin
+    last_name: Elkin
+    image: /images/members/elkin.png
+    affiliation: CSE
+    website: http://www.lisaelkin.com
+    email: lelkin@cs.washington.edu
+    status: current
+
+  - id: jerry_cao
+    name: Jerry Cao
+    last_name: Cao
+    affiliation: CSE
+    image: /images/members/jerry_cao.jpg
+    website: https://jerrycao22.github.io/
+    email: jcao22@cs.washington.edu
+    status: current
+
+  - id: zzhihan
+    name: Zhihan Zhang
+    last_name: Zhang
+    affiliation: CSE
+    image: /images/members/zzhihan_2024.jpg
+    website: https://homes.cs.washington.edu/~zzhihan/
+    email: zzhihan@cs.washington.edu
+    status: current
+
+  - id: zacharye
+    name: Zachary Englhardt
+    last_name: Englhardt
+    affiliation: CSE
+    image: /images/members/zach.jpg
+    website: https://zachary.englhardt.com/
+    email: zacharye@cs.washington.edu
+    status: current
+
+  - id: srinivas
+    name: Vidya Srinivas
+    last_name: Srinivas
+    affiliation: CSE
+    image: /images/members/vidya.jpg
+    website: https://www.linkedin.com/in/vidya-srinivas/
+    email: vysri@cs.washington.edu
+    status: current
+
+# Staff
+
+  - id: colleen
+    name: Colleen Carroll
+    last_name: Carroll
+    image: /images/members/colleen_carroll.jpg
+    affiliation: CSE
+    email: cecarrol@cs.washington.edu
+    website: https://www.linkedin.com/in/colleencarroll
+    status: staff
+
+  - id: otari
+    name: Otari Ioseliani
+    last_name: Ioseliani
+    image: /images/members/otari_ioseliani.jpg
+    affiliation: CSE
+    email: otari@cs.washington.edu
+    website: https://www.linkedin.com/in/otari-ioseliani-064b5186/
+    status: staff
+
+# Masters
+
+  - id: chengqian
+    name: Jack (Chengqian) Ma
+    last_name: Ma
+    affiliation: Electrical and Computer Engineering
+    image: /images/members/chengqian.png
+    website: https://www.linkedin.com/in/chengqian-ma-356566162/
+    status: master
+
+  - id: sushree_subhasmita_jena
+    name: Sushree Subhasmita Jena
+    last_name: Jena
+    affiliation: Electrical and Computer Engineering
+    image: /images/members/Sushree.jpeg
+    website: https://www.linkedin.com/in/sushree-subhasmita/
+    status: master
+
+# Postdocs/visiting researchers
+
+# Alumni
+  - id: froehlich
+    name: Jon Froehlich
+    last_name: Froehlich
+    image: /images/members/froehlich.png
+    website: http://www.cs.umd.edu/~jonf/
+    status: alumni
+    affiliation: Professor at the University of Washington
+    year: 2011
+
+  - id: larson
+    name: Eric Larson
+    last_name: Larson
+    image: /images/members/larson.jpg
+    website: http://www.eclarson.com
+    status: alumni
+    affiliation: Associate Professor at Southern Methodist University
+    year: 2013
+
+  - id: gupta
+    name: Sidhant Gupta
+    last_name: Gupta
+    image: /images/members/gupta.jpg
+    website: http://sidhantgupta.com/
+    status: alumni
+    affiliation: CTO at CloudWerx
+    year: 2014
+
+  - id: cohn
+    name: Gabe Cohn
+    last_name: Cohn
+    image: /images/members/cohn.jpg
+    website: http://www.gabeacohn.com
+    status: alumni
+    affiliation: Researcher at Microsoft Research
+    year: 2014
+
+  - id: chen
+    name: Keyu Chen
+    last_name: Chen
+    image: /images/members/keyu.jpg
+    website: http://www.keyuc.com
+    status: alumni
+    affiliation: Research Scientist at Apple
+    year: 2015
+
+  - id: goel
+    name: Mayank Goel
+    last_name: Goel
+    image: /images/members/goel.jpg
+    website: http://www.mayankgoel.com
+    status: alumni
+    affiliation: Assistant Professor at Carnegie Mellon University
+    year: 2016
+
+  - id: lee
+    name: Tien-jui Lee
+    last_name: Lee
+    image: /images/members/tien.jpg
+    status: alumni
+    affiliation: Founding Software Engineer at Dropzone AI
+    year: 2016
+
+  - id: kay
+    name: Matthew Kay
+    last_name: Kay
+    image: /images/members/kay.jpg
+    status: alumni
+    affiliation: Assistant Professor at Northwestern University
+    year: 2016
+
+  - id: li
+    name: Hanchuan Li
+    last_name: Li
+    image: /images/members/Hanchuan.jpg
+    email: hanchuan@cs.washington.edu
+    website: http://www.hanchuanli.com
+    affiliation: Principal Researcher at Microsoft Mixed Reality
+    status: alumni
+    year: 2018
+
+  - id: saba
+    name: Elliot Saba
+    last_name: Saba
+    image: /images/members/saba.png
+    affiliation: Senior Research Engineer at Julia Computing
+    email: sabae@uw.edu
+    website: http://staticfloat.github.io
+    status: alumni
+    year: 2018
+
+  - id: mariakakis
+    name: Alex Mariakakis
+    last_name: Mariakakis
+    image: /images/members/alexmariakakis.jpg
+    email: atm15@cs.washington.edu
+    website: https://mariakakis.github.io
+    status: alumni
+    affiliation: Assistant Professor at the University of Toronto
+    year: 2019
+
+  - id: wang
+    name: Edward Wang
+    last_name: Wang
+    image: /images/members/edwardjaywang.jpg
+    email: ejaywang@uw.edu
+    website: http://www.ejaywang.com
+    affiliation: Assistant Professor at UCSD
+    status: alumni
+    year: 2019
+
+  - id: degreef
+    name: Lilian de Greef
+    last_name: Greef
+    image: /images/members/liliandegreef.jpg
+    affiliation: Research Scientist at Apple
+    email: ldegreef@cs.washington.edu
+    website: http://www.ldegreef.com
+    status: alumni
+    year: 2019
+
+  - id: fromm
+    name: Josh Fromm
+    last_name: Fromm
+    image: /images/members/joshfromm.jpg
+    email: jwfromm@uw.edu
+    website: http://jwfromm.com
+    affiliation: Architect and Head of MLSys at OctoML
+    status: alumni
+    year: 2019
+
+  - id: whitmire
+    name: Eric Whitmire
+    last_name: Whitmire
+    image: /images/members/whitmire.jpg
+    affiliation: Research Scientist at Facebook Reality Labs
+    email: emwhit@cs.washington.edu
+    website: http://www.ericwhitmire.com
+    status: alumni
+    year: 2019
+
+  - id: ravichandran
+    name: Ruth Ravichandran
+    last_name: Ravichandran
+    image: /images/members/ruth_profile.png
+    affiliation: Research Scientist at Amazon
+    email: vinisha@uw.edu
+    website: http://vinisha7.wixsite.com/mysite
+    status: alumni
+    year: 2019
+
+  - id: jain
+    name: Mohit Jain
+    last_name: Jain
+    image: /images/members/mohitjain.jpg
+    email: mohitj@cs.washington.edu
+    website: https://homes.cs.washington.edu/~mohitj/
+    affiliation: Senior Researcher at Microsoft Research India
+    status: alumni
+    year: 2019
+
+  - id: parizi
+    name: Farshid Salemi Parizi
+    last_name: Parizi
+    image: /images/members/farshid.jpg
+    affiliation: MLSys Engineer at OctoML
+    email: farshid@uw.edu
+    website: http://farshidsp.com/
+    status: alumni
+    year: 2021
+
+  - id: parkcj
+    name: Chunjong Park
+    last_name: Park
+    image: /images/members/cjpark.jpg
+    affiliation: Google DeepMind
+    website: http://www.cjpark.xyz/
+    email: cjparkuw@cs.washington.edu
+    status: alumni
+    year: 2022
+
+  - id: liu_xin
+    name: Xin Liu
+    last_name: Liu
+    image: /images/members/xin_liu.jpg
+    affiliation: Research Scientist at Google Consumer Health Research
+    website: https://homes.cs.washington.edu/~xliu0/
+    email: xliu0@cs.washington.edu
+    status: alumni
+    year: 2023
+
+  - id: sharma
+    name: Manuja Sharma
+    last_name: Sharma
+    image: /images/members/sharma.jpg
+    affiliation: WaveWorks
+    website: https://www.linkedin.com/in/manuja-sharma/
+    email: manuja21@uw.edu
+    status: alumni
+    year: 2023
+
+  - id: whitehill
+    name: Matt Whitehill
+    last_name: Whitehill
+    image: /images/members/whitehill_matt.jpg
+    affiliation: CTO of PreemptiveAI
+    website: https://matthewwhitehill.com
+    email: mattw12@cs.washington.edu
+    status: alumni
+    year: 2023
+
+
+# Past masters
+
+  - id: tng
+    name: Aspen Tng
+    last_name: Tng
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: khvan
+    name: Olga Khvan
+    last_name: Khvan
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: aumi
+    name: Md Tanvir Islam Aumi
+    last_name: Aumi
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: lindsay
+    name: Jack Lindsay
+    last_name: Lindsay
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: swanson
+    name: Eric Swanson
+    last_name: Swanson
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: ianacci
+    name: Fran Iannacci
+    last_name: Iannacci
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: liu
+    name: Sean Liu
+    last_name: Liu
+    image: /images/members/dummy.png
+    status: master_alumni
+
+  - id: garrison
+    name: Jake Garrison
+    last_name: Garrison
+    image: /images/members/garrison.jpg
+    status: master_alumni
+
+  - id: yzhao
+    name: Yiran Zhao
+    last_name: Zhao
+    image: /images/members/yzhao.jpg
+    email: yzhao362@uw.edu
+    status: master_alumni
+
+  - id: bo_liu
+    name: Bo Liu
+    last_name: Liu
+    affiliation: Global Innovation Exchange
+    image: /images/members/Bo.jpeg
+    website: https://boliu97.github.io/
+    status: master_alumni
+
+  - id: yujia_liu
+    name: Yujia (Nancy) Liu
+    last_name: Liu
+    affiliation: Electrical and Computer Engineering
+    image: /images/members/Yujia.jpeg
+    website: https://nancylyj.github.io/
+    status: master_alumni
+
+  - id: peplinski
+    name: Jacob Peplinski
+    last_name: Peplinski
+    image: /images/members/jacob.jpg
+    affiliation: Electrical and Computer Engineering
+    website: https://www.linkedin.com/in/jpeplins/
+    email: jpeplins@uw.edu
+    status: master_alumni
+  
+  - id: aglenn
+    name: Antonio Glenn
+    last_name: Glenn
+    image: /images/members/aglenn.png
+    website: https://antoniog11.github.io/
+    email: aglenn5@cs.washington.edu
+    status: master_alumni
+
+
+
+# Current Undergraduate
+
+  - id: eashver_elango
+    name: Eashver Elango
+    last_name: Elango
+    affiliation: Computer Science and Engineering
+    image: /images/members/eashver_elango.jpg
+    website: http://eashvere.github.io/
+    status: ugrad
+
+  - id: youssef_taleb
+    name: Youssef Taleb
+    last_name: Taleb
+    affiliation: Computer Science and Engineering
+    image: /images/members/Youssef.jpeg
+    website: https://www.linkedin.com/in/youssef-ben/
+    status: ugrad
+
+  - id: hung_yu_ko
+    name: Hung Yu Ko
+    last_name: Ko
+    affiliation: Electrical and Computer Engineering
+    image: /images/members/Harvey.jpeg
+    website: https://www.linkedin.com/in/hungyu-ko/
+    status: ugrad
+
+
+  - id: hannah_lee
+    name: Hannah Lee
+    last_name: Lee
+    affiliation: Computer Science and Engineering
+    image: /images/members/hannah.jpg
+    website: https://www.linkedin.com/in/hannahyklee/
+    status: ugrad
+
+  - id: cc_chang
+    name: Chun-Cheng Chang
+    last_name: Chang
+    affiliation: Computer Science and Engineering
+    image: /images/members/cc_chang.jpg
+    website: https://www.linkedin.com/in/chun-cheng-chang-28b49a223/
+    status: ugrad
+
+# Past Visiting Researchers
+
+  - id: gulati
+    name: Manoj Gulati
+    last_name: Gulati
+    image: /images/members/gulati.jpg
+    affiliation: PhD student at IIIT-Delhi
+    website: https://manojgulati.wordpress.com/
+    status: visiting_alumni
+
+  - id: wong
+    name: Dorothy Wong
+    last_name: Wong
+    image: /images/members/wong.jpg
+    affiliation: Masters student at the University of Washington in HCDE
+    status: visiting_alumni
+
+  - id: yuntao
+    name: Yuntao Wang
+    last_name: Wang
+    image: /images/members/yuntao.png
+    affiliation: Assistant Professor at Tsinghua University & GIX
+    email: yuntao@uw.edu
+    website: http://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/
+    status: visiting_alumni
+
+# Past undergrad
+  - id: millicent_li
+    name: Millicent Li
+    last_name: Li
+    affiliation: Computer Science and Engineering
+    image: /images/members/millicent_li.jpg
+    website: https://www.linkedin.com/in/limillicent/
+    status: ugrad_alumni
+
+  - id: annalice_ni
+    name: Annalice Ni
+    last_name: Ni
+    affiliation: Computer Science and Engineering
+    image: /images/members/annalice_ni.jpg
+    website: https://www.linkedin.com/in/annaliceni/
+    status: ugrad_alumni
+
+  - id: ruth_parker
+    name: Parker Ruth
+    last_name: Ruth
+    affiliation: Computer Science and Engineering
+    image: /images/members/parker_ruth.png
+    website: https://parkersruth.github.io/
+    status: ugrad_alumni
+
+  - id: alcaide
+    name: Ramses Alcaide
+    last_name: Alcaide
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: alekhnovich
+    name: Sergey Alekhnovich
+    last_name: Alekhnovich
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: campbell
+    name: Tim Campbell
+    last_name: Campbell
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: chou
+    name: Michael Chou
+    last_name: Chou
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: garg
+    name: Sunil Garg
+    last_name: Garg
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: horton
+    name: Alex Horton
+    last_name: Horton
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: kim
+    name: Han Kim
+    last_name: Kim
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: kristjansson
+    name: Stefan Kristjansson
+    last_name: Kristjansson
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: michel
+    name: Jonas Michel
+    last_name: Michel
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: peterson
+    name: Josh Peterson
+    last_name: Peterson
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: schwarz
+    name: Julia Schwarz
+    last_name: Schwarz
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: sommerville
+    name: Tom Sommerville
+    last_name: Sommerville
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: turnquist
+    name: Erik Turnquist
+    last_name: Turnquist
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: zizyte
+    name: Milda Zizyte
+    last_name: Zizyte
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: tseng
+    name: Clint Tseng
+    last_name: Tseng
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: agashe
+    name: Rajas Agashe
+    last_name: Agashe
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: banks
+    name: Megan Banks
+    last_name: Banks
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: chan
+    name: Eric Chan
+    last_name: Chan
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: benaloh
+    name: Steven Benaloh
+    last_name: Benaloh
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: chen_yuxiang
+    name: Yuxiang Chen
+    last_name: Chen
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: dorsett
+    name: Matt Dorsett
+    last_name: Dorsett
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: fadaie
+    name: Michael Fadaie
+    last_name: Fadaie
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: guh
+    name: Ka Ho Guh
+    last_name: Guh
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: jiang
+    name: Siju Jiang
+    last_name: Jiang
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: johanson
+    name: Brandon Johanson
+    last_name: Johanson
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: johnson
+    name: Michael Johnson
+    last_name: Johnson
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: kathuria
+    name: Mayank Kathuria
+    last_name: Kathuria
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: mandyam
+    name: Aishwarya Mandyam
+    last_name: Mandyam
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: mehta
+    name: Vardhman Mehta
+    last_name: Mehta
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: pickett
+    name: Cameron Pickett
+    last_name: Pickett
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: smoots
+    name: Ryan Smoots
+    last_name: Smoots
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: wang_ying
+    name: Ying Wang
+    last_name: Wang
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: wu_meiling
+    name: Meiling Wu
+    last_name: Wu
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: yisrael
+    name: Samuel Yisrael
+    last_name: Yisrael
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: li_william
+    name: William Li
+    last_name: Li
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: zhu_junyi
+    name: Junyi Zhu
+    last_name: Zhu
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: luo_andrew
+    name: Andrew Luo
+    last_name: Luo
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: jain_divye
+    name: Divye Jain
+    last_name: Jain
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: yi_michael
+    name: Michael Yi
+    last_name: Yi
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: lu_clara
+    name: Clara Lu
+    last_name: Lu
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: kotalik_justin
+    name: Justin Kotalik
+    last_name: Kotalik
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: rana_rajneil
+    name: Rajneil Rana
+    last_name: Rana
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: liu_frank
+    name: Frank Liu
+    last_name: Liu
+    image: /images/members/dummy.png
+    status: ugrad_alumni
+
+  - id: viswanath_varun
+    name: Varun Viswanath
+    last_name: Viswanath
+    affiliation: Computer Science and Engineering
+    image: /images/members/varun.jpg
+    website: https://www.linkedin.com/in/varun-viswanath-aab70345
+    status: ugrad_alumni
+
+  - id: hung_ngo
+    name: Hung Ngo
+    last_name: Ngo
+    affiliation: Computer Science and Engineering
+    image: /images/members/hung_ngo.jpg
+    website: http://www.hungvngo.com
+    status: ugrad_alumni
+
+  - id: tadeusz
+    name: Tadeusz Pforte
+    last_name: Pforte
+    affiliation: Computer Science and Engineering
+    image: /images/members/tadeusz.png
+    status: ugrad_alumni
+
+  - id: eddy_zhou
+    name: Eddy Zhou
+    last_name: Zhou
+    affiliation: Computer Science and Engineering
+    image: /images/members/eddy_zhou.jpg
+    website: https://www.linkedin.com/in/tianyi-eddy-zhou-2bba25192/
+    status: ugrad_alumni
+
+  - id: toma_itagaki
+    name: Toma Itagaki
+    last_name: Itagaki
+    affiliation: Columbia University
+    image: /images/members/Toma_Itagaki.jpg
+    website: https://www.tomaitagaki.com/
+    status: ugrad_alumni
+
+# Past summer
+
+  - id: badshah
+    name: Akash Badshah
+    last_name: Badshah
+    image: /images/members/dummy.png
+    status: summer_alumni
+
+# former staff
+
+  - id: lrlavitt
+    name: Libby Lavitt
+    last_name: Lavitt
+    image: /images/members/libby_lavitt.jpg
+    affiliation: CSE
+    email: lrlavitt@cs.washington.ede
+    website: https://www.linkedin.com/in/libby-lavitt/
+    status: former_staff

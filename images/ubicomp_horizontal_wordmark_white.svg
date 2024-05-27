@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1064.2061"
+   height="228.92799"
+   viewBox="0 0 281.57121 60.570531"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="ubicomp_horizontal_wordmark_white.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="1064.2061px"
+     units="px"
+     inkscape:zoom="0.59210099"
+     inkscape:cx="713.56071"
+     inkscape:cy="59.955988"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="586"
+     inkscape:window-y="134"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="161.48291"
+       y="531.4256"
+       width="120.37817"
+       height="322.96582"
+       id="rect11485" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="2.5992668"
+       y="43.696465"
+       id="text891"><tspan
+         sodipodi:role="line"
+         id="tspan889"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Avenir;-inkscape-font-specification:Avenir;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="2.5992668"
+         y="43.696465"><tspan
+   style="font-weight:bold;font-size:50.8px;fill:#ffffff;fill-opacity:1"
+   id="tspan4397">ubicomp</tspan>lab</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text11483"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11485);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
