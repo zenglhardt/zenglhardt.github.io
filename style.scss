@@ -310,12 +310,57 @@ img {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  .image-container {
-    display: flex;
-    justify-content: center;
+// @media (max-width: 576px) {
+//   .image-container {
+//     max-height: none;
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+
+@media (min-width: 991px) {
+  .details-container {
+    margin-left: -45px; /* Adjust this value as needed */
   }
 }
+
+/* Ensure that the link to this CSS file is correct in your HTML head */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-4 .image-container {
+      float: left; /* Aligns the image to the left */
+      // width: 50%; /* Takes half the width */
+      text-align: left; /* Centers the image in the space */
+  }
+  .col-sm-8.details-container {
+    float: left;
+    width: auto; /* Resets to full width for smaller devices */
+    text-align: left; /* Center aligns the content */
+}
+
+  // .col-sm-8.details-container {
+  //     float: right; /* Aligns the text to the right */
+  //     width: 50%; /* Takes the remaining half */
+  // }
+}
+
+@media (max-width: 767px) {
+  .col-sm-4 .image-container{
+    text-align: center;
+  }
+  
+  .col-sm-8 .details-container {
+      float: none;
+      width: auto; /* Resets to full width for smaller devices */
+      text-align: center; /* Center aligns the content */
+  }
+  .profile-pic{
+    max-height: 225px;
+    flex: 0 0 auto;
+    margin-top: 0;//10px;
+    border-radius: 5%
+  }
+}
+
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -442,7 +487,7 @@ img {
     font-size: 40px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .navbar .navbar-brand img {
       height: 80px;
