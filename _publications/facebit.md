@@ -25,5 +25,5 @@ bibtex: |
     year={2021},
     publisher={ACM New York, NY, USA}}
 
-tag: systemsTag reviewedTag
+tag: hardware
 ---

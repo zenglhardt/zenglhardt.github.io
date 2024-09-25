@@ -29,5 +29,5 @@ bibtex: |
     location = {<conf-loc>, <city>Minato-ku</city>, <state>Tokyo</state>, <country>Japan</country>, </conf-loc>},
     series = {DroNet '24}
     }
-tag: systemsTag nonReviewedTag environmentTag
+tag: hardware
 ---

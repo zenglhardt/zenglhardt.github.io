@@ -22,5 +22,5 @@ bibtex: |
     pages={1--9},
     year={2024}}
 
-tag: mlTag nonReviewedTag
+tag: ai hardware
 ---

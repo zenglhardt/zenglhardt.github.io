@@ -30,5 +30,5 @@ bibtex: |
     month = oct,
     year = {2023},
     pages = {1--16}}
-tag: systemsTag reviewedTag environmentTag
+tag: hardware
 ---
