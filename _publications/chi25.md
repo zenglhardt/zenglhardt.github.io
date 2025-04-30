@@ -1,7 +1,7 @@
 ---
 title: 'Incorporating Sustainability in Electronics Design: Obstacles and
 Opportunities'
-authors: [zacharye, Felix Hähnlein, Yuxuan Mei, Tong Lin, Connor Mashihiro Sun, zzhihan, patel, Adriana Schulz, vikram]
+authors: [zacharye, Felix Hähnlein, Yuxuan Mei, Tong Lin, Connor Masahiro Sun, zzhihan, patel, Adriana Schulz, vikram]
 conference: CHI Conference on Human Factors in Computing Systems (CHI) 2025
 date: 2025-04-26
 award:
