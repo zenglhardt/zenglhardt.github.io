@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: null
 title:
 redirect_from:
 - /projects/
 - /wiki/Projects/
 ---
+<meta name="robots" content="noindex">
 
 <script>
   function filterByTag(selectedTag) {
@@ -102,10 +103,10 @@ redirect_from:
 <div class="pub {{ pub.tag }}">
   <div class="row publication-badge">
     <div class="publication-pic col-md-2 col-sm-3 col-sm-12 text-left">
-      {% if pub.thumbnail.size > 0 %}<img src="{{ pub.thumbnail }}" class="shadow-img"/></a>{% endif %}&nbsp;
+      {% if pub.thumbnail.size > 0 %}{% if pub.pdf %}<a href="{{ site.url }}{{ pub.pdf }}" target="_blank">{% endif %}<img src="{{ pub.thumbnail }}" class="shadow-img"/>{% if pub.pdf %}</a>{% endif %}{% endif %}&nbsp;
     </div>
     <div class="publication-info col-md-10 col-sm-9 col-sm-12">
-      <h2>{{ pub.title }}</h2>
+      <h2>{% if pub.pdf %}<a href="{{ site.url }}{{ pub.pdf }}" target="_blank">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h2>
 
       <p><span class="authors">{% include author_list.html authors=pub.authors coauthors=pub.coauthors%}</span><br />
         <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
