@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,8 +141,7 @@
         <h2>Publication List</h2>
         <div class="row">
           <div class="col-md-12">
-            <!-- <p>Content for section 3.</p> -->
-            <div id="publications-content">Loading publications...</div>
+            {% include publication_list.html %}
           </div>
         </div>
       </div>
@@ -162,16 +163,6 @@
         $(target).addClass('visible').removeClass('hidden');
         $('.ant-menu-item').removeClass('active'); // Remove active from all menu items
         $(this).addClass('active'); // Add active to the clicked menu item
-      });
-    });
-  </script>
-
-  <script>
-    $(document).ready(function(){
-      // Fetch the content from the publications page
-      $.get('./publications', function(data) {
-        // Insert the fetched content into the container element
-        $('#publications-content').html(data);
       });
     });
   </script>
